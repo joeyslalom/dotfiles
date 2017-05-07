@@ -1,0 +1,11 @@
+# .ssh/config
+
+Host github.com-cb
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/cb_github_rsa
+
+Host github.com-jt
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/jt_github_rsa
