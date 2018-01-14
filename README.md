@@ -21,5 +21,11 @@ ln -s ~/dev/github-cb/dotfiles/sshconfig config
 2) cd ~/dev/github-cb/
 3) git clone git@github.com:chickenbane/dotfiles.git
 
-### open project in IntelliJ
-1) Open terminal, $pwd = ~/dev/github-cb/dotfiles `./macOs.sh`
+### open project in IntelliJ Terminal
+*  $pwd = ~/dev/github-cb/dotfiles 
+* `./macOs.sh`
+
+### gcp cloud console
+1) `git clone https://github.com/chickenbane/dotfiles.git`
+2) `cd dotfiles`
+3) `./gcp.sh`
