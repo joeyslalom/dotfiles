@@ -16,6 +16,8 @@ export ANDROID_SDK=/Users/joey/Library/Android/sdk
 export PATH=$PATH:$ANDROID_SDK/platform-tools
 
 alias eb="vim ~/.bash_profile && source ~/.bash_profile"
+alias git_rm_merged='git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d'
+alias docker_rm_untagged='docker rmi $(docker images -f "dangling=true" -q)'
 
 #export PS1="\w $ "
 # http://code-worrier.com/blog/git-branch-in-bash-prompt/
