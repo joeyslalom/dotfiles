@@ -1,6 +1,6 @@
 
 # brew installed packages take precedence over system (git)
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+export PATH=~/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
 #export SCALA_HOME=/Users/joeyt/Documents/dev/scala/scala-2.11.2
 #export PATH=$PATH:$SCALA_HOME/bin

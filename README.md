@@ -21,6 +21,12 @@ ln -s ~/dev/github-cb/dotfiles/sshconfig config
 2) cd ~/dev/github-cb/
 3) git clone git@github.com:chickenbane/dotfiles.git
 
+#### homebrew
+1) brew tap cloudfoundry/tap
+2) brew install bosh-cli
+3) brew tap caskroom/cask
+4) brew cask install virtualbox
+
 ### open project in IntelliJ Terminal
 *  $pwd = ~/dev/github-cb/dotfiles 
 * `./macOs.sh`
