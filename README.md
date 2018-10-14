@@ -1,5 +1,21 @@
 # dotfiles
 
+### install things on macOS
+1. homebrew https://brew.sh/
+2. IntelliJ IDEA https://www.jetbrains.com/idea/download/#section=mac
+
+#### terminal commands
+1. brew install git
+2. mkdir -p ~/dev/github-cb/
+3. cd ~/dev/github-cb/
+4. git clone git@github.com:chickenbane/dotfiles.git
+5. cd dotfiles
+6. ./macOs.sh
+
+
+
+### setup
+
 1) Get two factor setup
 2) Get ssh keys added to account
 3) Generate "personal access token"
@@ -16,20 +32,13 @@ git remote set-url origin git@github.com-cb:chickenbane/dotfiles.git
 
 ln -s ~/dev/github-cb/dotfiles/sshconfig config
 
-### set things up on MacOs
-1) mkdir -p ~/dev/github-cb/
-2) cd ~/dev/github-cb/
-3) git clone git@github.com:chickenbane/dotfiles.git
+
 
 #### homebrew
 1) brew tap cloudfoundry/tap
 2) brew install bosh-cli
 3) brew tap caskroom/cask
 4) brew cask install virtualbox
-
-### open project in IntelliJ Terminal
-*  $pwd = ~/dev/github-cb/dotfiles 
-* `./macOs.sh`
 
 ### gcp cloud console
 1) `git clone https://github.com/chickenbane/dotfiles.git`
