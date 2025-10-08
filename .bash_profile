@@ -11,6 +11,14 @@ export PROMPT_COMMAND='__git_ps1 "\w" "\\\$ "'
 
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
+# google cloud sdk
+# brew install --cask gcloud-cli
+export PATH=/opt/homebrew/share/google-cloud-sdk/bin:"$PATH"
+source /opt/homebrew/share/google-cloud-sdk/completion.bash.inc
+source /opt/homebrew/share/google-cloud-sdk/path.bash.inc
+
+# brew install mise
+eval "$(mise activate bash)"
 
 # brew installed packages take precedence over system (git)
 #export PATH=~/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -22,12 +30,8 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 #docker
 #source /usr/local/etc/bash_completion.d/docker
 
-#google cloud sdk
-#source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.bash.inc'
-#source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.bash.inc'
 
 # [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
 #kubectl
 #source <(kubectl completion bash)
-
