@@ -8,7 +8,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 GIT_BASH_COMPLETION=/opt/homebrew/etc/bash_completion.d
 source $GIT_BASH_COMPLETION/git-prompt.sh
 source $GIT_BASH_COMPLETION/git-completion.bash
-export PROMPT_COMMAND='__git_ps1 "\w" "\\\$ "'
+PS1='\w$(__git_ps1 " (%s) ")\$ '
 
 # brew install --cask gcloud-cli
 export PATH=/opt/homebrew/share/google-cloud-sdk/bin:"$PATH"
