@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-# TODO ensure we're run in ~/dev/github-cb/dotfiles
+THIS=~/git/dotfiles
 
 # Fixes Alt-Left / Alt-Right behavior in Terminal for some reason
-ln -sf ~/dev/github-cb/dotfiles/.inputrc ~/.inputrc
+#ln -sf $THIS/.inputrc ~/.inputrc
 
-ln -sf ~/dev/github-cb/dotfiles/.bash_profile ~/.bash_profile
-ln -sf ~/dev/github-cb/dotfiles/.vimrc ~/.vimrc
+ln -sf $THIS/.bash_profile ~/.bash_profile
+ln -sf $THIS/.vimrc ~/.vimrc

@@ -6,12 +6,16 @@
 
 #### git clone
 1. brew install git
-2. mkdir -p ~/dev/github-cb/
-3. cd ~/dev/github-cb/
-4. git clone git@github.com:chickenbane/dotfiles.git
+2. mkdir -p ~/git
+3. cd ~/git
+4. git clone https://github.com/joeyslalom/dotfiles.git
 5. cd dotfiles
 6. ./macOs.sh
 
+### New SSH key
+1. ssh-keygen -t ed25519 -C "your_email@example.com"
+2. pbcopy < ~/.ssh/id_ed25519.pub
+3. GitHub -> SSH and GPG keys -> New SSH key
 
 #### git commit
 
